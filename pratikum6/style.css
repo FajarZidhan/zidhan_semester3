@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {margin: 0;
+  padding: 0;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background:white;
+}
+
+.header {
+  height: 100px;
+  background-color: #fff;
+}
+
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.judul {
+  padding-left: 10px;
+  padding-top: 0;
+}
+
+p {
+  padding-left: 10px;
+}
+
+.header p{
+  margin-top: 80px;
+  margin-left: -350px;
+  margin-right: 20px;
+  
+
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(7, 119, 153);
+  width: 100%;
+  justify-content: right;
+}
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+ .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(240, 233, 233);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+ }
+
+.navbar a:hover, .dropdown:hover 
+.dropbtn {
+  transition: ease-in-out 0.5s;
+  background-color: rgb(21, 21, 204) ;
+  border-radius: 25px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(19, 17, 17)525;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: rgb(17, 15, 15);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #dde6dd;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 70%;
+}
+
+
+.leftcolumn h4 {
+  
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.leftcolumn li {
+  padding: 5px;
+}
+
+.leftcolumn ul {
+  padding: 5px;
+}
+
+.right {
+  float: left;
+  height: 600px;
+  width: 30%;
+  background-color: #f1f1f1;
+}
+
+.img2 {
+  background-color: white;
+  width: 70%;
+  padding-top: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+}
+
+.card2 {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card2 h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.image {
+  background-color: white;
+  width: 70%;
+  width: 240px;
+  height: 235px;
+  margin-right: 20px; 
+}
+
+.card2 p {
+  margin: 0; 
+}
+
+
+
+.coloum:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.description {
+  padding: 20px;
+  background-color: #d4b1b1;
+}
+
+.description1 {
+  padding-top: 10px;
+  color: white;
+  padding: 0;
+  background-image: url(img/bgrpl.jpg);
+  background-size: 100%;
+  background-position: center;
+  height: 70vh;
+  
+}
+
+.description2 {
+  padding-top: 10px;
+  color: #fff;
+  padding: 0;
+  background-image: url(img/bgabi.jpeg);
+  background-size: 100%;
+  background-position: center;
+  height: 70vh;
+  
+}
+
+.description3 {
+  padding-top: 10px;
+  color: #e2d7d7;
+  padding: 0;
+  background-image: url(img/bgakp.jpg);
+  background-size: 100%;
+  background-position: top;
+  height: 70vh;
+  
+}
+
+.description ol {
+  padding-top: 20px;
+  padding-left: 30px;
+  }
+  .description li {
+    padding-left: 15px;
+  }
+  .description h4 {
+    padding-top: 30px;
+
+  }
+  
+  
+.description1 ul {
+padding-top: 20px;
+}
+.description1 li {
+  padding-left: 15px;
+}
+
+.description1 h1 {
+  padding-top: 30px;
+}
+
+.description2 ul {
+  padding-top: 20px;
+  }
+  .description2 li {
+    padding-left: 15px;
+  }
+  
+  .description2 h1 {
+    padding-top: 30px;
+  }
+
+  .description3 ul {
+    padding-top: 20px;
+    }
+    .description3 li {
+      padding-left: 15px;
+    }
+    
+    .description3 h1 {
+      padding-top: 30px;
+    }
+    
+  
+
+.footer {
+  text-align: left;
+  background:rgb(75, 150, 219);
+  display: flex;
+  align-items: center; 
+  width: 100%;
+  height: 50px;
+}
+
+
+
+
+
+

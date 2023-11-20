@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Form Contoh</title>
+</head>
+<body>
+    <h2>Form Contoh</h2>
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Laki-laki</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Perempuan</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Lainnya</label><br><br>
+
+        <label for="address">Alamat:</label>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="country">Negara:</label>
+        <select id="country" name="country" required>
+            <option value="indonesia">Indonesia</option>
+            <option value="malaysia">Malaysia</option>
+            <option value="singapura">Singapura</option>
+            <option value="thailand">Thailand</option>
+        </select><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="photo">Pengunggahan Foto:</label>
+        <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+
+        <label for="comment">Komentar:</label>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
